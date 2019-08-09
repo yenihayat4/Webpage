@@ -1,0 +1,11 @@
+body{background-color:#F0F0F0;font-size:18px;font-family: 'Indie Flower', cursive;}
+div.leftSide{position:absolute;float:left;padding:10px}
+div.rightSide{float:right;padding:10px;position:absolute;margin-left:560px}
+p{margin-top:0px;margin-bottom:10px}
+a{color:#000;text-decoration:underline}
+a:visited{color:#000}
+a:hover{color:#333}
+img{vertical-align:middle;margin-right:5px}
+img#imgQR{position:absolute;right:5px;bottom:5px;}
+div#bottomRight{position:fixed;bottom:5px;right:5px}
+@media only screen and (max-width: 768px){div.leftSide{display:none}div.rightSide{margin-left:5px}}
